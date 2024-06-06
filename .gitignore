@@ -1,0 +1,17 @@
+# Editors
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Distribution / packaging
+__pycache__/
+lib/
+
+# Outputs
+res/
+figs/
+
+# Project-specific
+extras/
