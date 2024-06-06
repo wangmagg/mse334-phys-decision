@@ -11,10 +11,10 @@ python3 -m src.main \
     --p-mdl-pos 0.4 \
     --p-mdl-null 0.2 \
     --p-mdl-neg 0.6 \
-    --alpha-learn-pre 0.01 \
-    --alpha-learn-post 0.5 \
-    --alpha-habit-pre 0.5 \
-    --alpha-habit-post 5 \
+    --alpha0-pre 0.01 \
+    --alpha0-post 0.5 \
+    --alpha1-pre 0.5 \
+    --alpha1-post 5 \
     --l-t 200 
 
 echo "mdl better"
@@ -28,8 +28,8 @@ python3 -m src.main \
     --p-mdl-pos 0.1 \
     --p-mdl-null 0.2 \
     --p-mdl-neg 0.9 \
-    --alpha-learn-pre 0.01 \
-    --alpha-learn-post 0.5 \
-    --alpha-habit-pre 0.5 \
-    --alpha-habit-post 5 \
+    --alpha0-pre 0.01 \
+    --alpha0-post 0.5 \
+    --alpha1-pre 0.5 \
+    --alpha1-post 5 \
     --l-t 200 

@@ -11,8 +11,8 @@ python3 -m src.main \
     --p-mdl-pos 0.4 \
     --p-mdl-null 0.2 \
     --p-mdl-neg 0.6 \
-    --alpha-learn 0.001 \
-    --alpha-habit 0.01
+    --alpha0 0.001 \
+    --alpha1 0.01
 
 echo "mdl better"
 python3 -m src.main \
@@ -25,5 +25,5 @@ python3 -m src.main \
     --p-mdl-pos 0.1 \
     --p-mdl-null 0.2 \
     --p-mdl-neg 0.9 \
-    --alpha-learn 0.001 \
-    --alpha-habit 0.01 
+    --alpha0 0.001 \
+    --alpha1 0.01 
